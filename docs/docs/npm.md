@@ -106,8 +106,8 @@ So the code is going to go through two steps:
    file that we will load into the browser
 
 It's important to remember that under the `:bundle` target the
-output of the ClojureScript compiler is not loadable by the browser it
-has to be bundled first.
+output of the ClojureScript compiler needs be bundled before making it
+loadable by the browser.
 
 During development under optimizations `:none` the bundled output file
 will only contain the NPM libraries and small amount of ClojureScript
