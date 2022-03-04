@@ -105,7 +105,7 @@ So the code is going to go through two steps:
 2. bundled together with its NPM dependencies to a final output
    file that we will load into the browser
 
-It's important to remember that the under the `:bundle` target the
+It's important to remember that under the `:bundle` target the
 output of the ClojureScript compiler is not loadable by the browser it
 has to be bundled first.
 
