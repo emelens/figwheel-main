@@ -387,7 +387,7 @@ This is just a simple matter as we just need to add `"target"` to the
         com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
  :aliases {:fig {:main-opts ["-m" "figwheel.main"]}
  ;; add "target" path here
- :paths ["src" "resources" "target"]}
+ :paths ["src" "cljs-src" "resources" "target"]}
 ```
 
 If you now call `clj -Spath` you will see the local `target` directory
