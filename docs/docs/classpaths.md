@@ -260,7 +260,7 @@ Edit `deps.edn`:
         com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
  :aliases {:fig {:main-opts ["-m" "figwheel.main"]}
  ;; add "resources" path here
- :paths ["src" "resources"]}
+ :paths ["src" "cljs-src" "resources"]}
 ```
 
 > With Leiningen, there is no need to add `resources` to the classpath
