@@ -49,7 +49,7 @@ Keeping with our `hello-world.core` example let's print out the
 configuration.
 
 ```shell
-$ clojure -m figwheel.main -pc -b dev -r
+$ clj -M:fig -pc -b dev
 ```
 
 The above command should print out something like the following:
