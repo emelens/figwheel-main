@@ -56,7 +56,7 @@ As an example let's assume a `dev.cljs.edn` build file. You can add
 
 ```clojure
 ^{:css-dirs ["resources/public/css"]}
-{:main example.core}
+{:main hello-world.core}
 ```
 
 Or you can set it for all builds and compiles in the `figwheel-main.edn`:
@@ -70,7 +70,7 @@ Or you can set it for all builds and compiles in the `figwheel-main.edn`:
 Then you restart your build:
 
 ```shell
-clojure -m figwheel.main -b dev -r
+clojure -M:fig -b dev -r
 ```
 
 Now you should be able to edit and save the
