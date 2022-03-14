@@ -70,7 +70,7 @@ Or you can set it for all builds and compiles in the `figwheel-main.edn`:
 Then you restart your build:
 
 ```shell
-clojure -M:fig -b dev -r
+clj -M:fig -b dev -r
 ```
 
 Now you should be able to edit and save the
